@@ -1,0 +1,39 @@
+
+.component-loader {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+}
+
+.component-loader span {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  margin: 3px;
+  background: #555;
+}
+
+.component-loader span:nth-child(1) {
+  animation: 1200ms ease-in-out infinite 0ms jump;
+}
+
+.component-loader  span:nth-child(2) {
+  animation: 1200ms ease-in-out infinite 200ms jump;
+}
+
+.component-loader  span:nth-child(3) {
+  animation: 1200ms ease-in-out infinite 400ms jump;
+}
+
+@keyframes jump {
+  0% {
+		transform: translateY(0);
+  }
+  20% {
+		transform: translateY(-14px);
+  }
+  60% {
+		transform: translateY(0);
+  }
+}

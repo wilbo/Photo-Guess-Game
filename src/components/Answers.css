@@ -1,0 +1,18 @@
+.component-answers {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.component-answer {
+	flex-basis: calc(50% - 30px);
+}
+
+.component-answer:hover {
+	background: rgba(235, 235, 235, 0.5);
+	border-color: #bbb;
+}

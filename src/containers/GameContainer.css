@@ -1,0 +1,61 @@
+.game-image {
+	box-sizing: border-box;
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+	position: relative;
+
+}
+
+.game-gradient-overlay {
+	background: linear-gradient(transparent 75%, #111);
+}
+
+.game-info {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #bbb;
+	pointer-events: none;
+	text-align: center;
+}
+
+.game-state {
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+
+	position: absolute;
+	top: 0;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.game-state > div {
+	text-align: center;
+	padding: 20px;
+	max-width: 300px;
+	margin-bottom: 40px;
+}
+
+.game-state h1 {
+	color: #fff;
+	text-shadow: 2px 2px 2px rgba(0,0,0,.6);
+	font-size: 4em;
+	margin-bottom: 0.4em;
+}
+
+.game-state p {
+	background-color: rgba(255,255,255,.8);
+	box-shadow: 2px 2px 2px rgba(0,0,0,.5);
+	padding: 10px;
+	border-radius: 3px;
+	color: #000;
+}
+
+.game-state button {
+	box-shadow: 2px 2px 2px rgba(0,0,0,.5);
+}
