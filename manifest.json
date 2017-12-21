@@ -1,0 +1,15 @@
+{
+  "short_name": "Photo Guess Game",
+  "name": "Guess the image with the least possible erases",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "196x196 64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#78B7BB",
+  "background_color": "#ffffff"
+}
