@@ -2,7 +2,7 @@
   "name": "image-guess",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://wilbo.github.io/Photo-Guess-Game",
+  "homepage": "https://wilbo.github.io/Photo-Guess-Game/",
   "dependencies": {
     "gh-pages": "^1.1.0",
     "normalize.css": "^7.0.0",
