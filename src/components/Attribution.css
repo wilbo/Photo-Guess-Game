@@ -2,6 +2,12 @@
 	position: absolute;
 	top: 10px;
 	left: 10px;
-	font-size: 12px;
+	font-size: 9px;
 	user-select: none;
+}
+
+@media screen and (min-width: 480px) {
+	.component-attribution {
+		font-size: 12px;
+	}
 }

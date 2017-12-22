@@ -5,7 +5,9 @@ const Answer = ({ text, checkAnswer }) => <button className="component component
 
 const Answers = ({ answers, checkAnswer }) => (
 	<div className="component component-answers">
-		{ answers.map((answer, i) => <Answer key={i} text={answer} checkAnswer={checkAnswer} />) }
+		<div>
+			{ answers.map((answer, i) => <Answer key={i} text={answer} checkAnswer={checkAnswer} />) }
+		</div>
 	</div>
 )
 
