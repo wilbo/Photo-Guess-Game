@@ -27,6 +27,7 @@ button {
 	color: #808B97;
 	cursor: pointer;
 	transition: all 160ms ease;
+	font-size: .7em;
 }
 
 button:hover {
@@ -54,5 +55,17 @@ a:hover {
 }
 
 p {
+	font-size: .7em;
 	line-height: 1.5;
+}
+
+@media screen and (min-width: 480px) {
+	h1 {
+		font-size: 3em;
+	}
+
+	p,
+	button {
+		font-size: 1em;
+	}
 }

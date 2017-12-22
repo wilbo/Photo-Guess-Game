@@ -6,7 +6,6 @@ const Right = ({ erases, reset }) => {
 			<div>
 				<h1>Correct!</h1>
 				<p>You guessed the correct answer with a total of { erases } erases.</p>
-				<br />
 				<button className="primary" onClick={() => reset()}>new game</button>
 			</div>
 		</div>

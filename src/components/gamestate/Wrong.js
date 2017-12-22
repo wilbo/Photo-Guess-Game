@@ -6,7 +6,6 @@ const Wrong = ({ answer, reset }) => {
 			<div>
 				<h1>Woops!</h1>
 				<p>The correct answer was: { answer }</p>
-				<br />
 				<button className="primary" onClick={() => reset()}>new game</button>
 			</div>
 		</div>
